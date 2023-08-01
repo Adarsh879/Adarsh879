@@ -1,9 +1,16 @@
-- 👋 Hi, I’m Adarsh
-- 👀 I’m interested in App development
-- 🌱 I’m currently learning Flutter
-- 📫 asadarsh879@gmail.com
+<h2 align="center">About me</h2>
 
-<!---
-Adarsh879/Adarsh879 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+```dart
+import 'package:software/software_developer.dart;
+
+void main() {
+  var myBio = SoftwareDeveloper().initBio()
+    ..name = 'Adarsh A S'
+
+  var mySkills = SoftwareDeveloper().initSkills()
+    ..languages = ['Java', 'Javascript', 'Dart', 'C++']
+    ..frameworks = ['Flutter' ,'NodeJS', 'React', 'Scrapy']
+    ..databases = ['MongoDB', 'MySQL', 'ObjectBox', 'sqlite']
+    ..interests = ['OpenSource', 'Hackathons']
+}
+```
